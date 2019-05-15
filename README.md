@@ -35,3 +35,5 @@ install Spreadsheet::SimpleExcel
 
 3.	g++ -o example.dll -mdll -s -L"C:\STRAWB~1\perl\lib\CORE" -L"C:\STRAWB~1\c\lib" example.o example_wrap.o   "C:\STRAWB~1\perl\lib\CORE\libperl526.a" -lmoldname -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -lnetapi32 -luuid -lws2_32 -lmpr -lwinmm -lversion -lodbc32 -lodbccp32 -lcomctl32 -Wl,--enable-auto-image-base
 
+C:\STRAWB~1\perl\lib\CORE\libperl526.a : this file is depends on what perl version you installed
+
